@@ -19,3 +19,4 @@ RUN apt-get update && \
 ### Install via pip or pipenv:
 RUN pip3 install pandas
 #RUN pipenv install pandas
+RUN pip3 install -i https://test.pypi.org/simple/ lambdata-bjja==0.0.4
